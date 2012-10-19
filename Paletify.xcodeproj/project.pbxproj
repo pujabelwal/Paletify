@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47BB4F8815AB2E9F00F09943 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BB4F8615AB2E9F00F09943 /* ShareViewController.m */; };
+		47BB4F8915AB2E9F00F09943 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47BB4F8715AB2E9F00F09943 /* ShareViewController.xib */; };
+		F745888F158E183F00DBA09D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F745888E158E183F00DBA09D /* UIKit.framework */; };
+		F7458891158E183F00DBA09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7458890158E183F00DBA09D /* Foundation.framework */; };
+		F7458893158E183F00DBA09D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7458892158E183F00DBA09D /* CoreGraphics.framework */; };
+		F7458899158E183F00DBA09D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7458897158E183F00DBA09D /* InfoPlist.strings */; };
+		F745889B158E183F00DBA09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F745889A158E183F00DBA09D /* main.m */; };
+		F745889F158E183F00DBA09D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F745889E158E183F00DBA09D /* AppDelegate.m */; };
+		F74588A2158E183F00DBA09D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74588A1158E183F00DBA09D /* ViewController.m */; };
+		F74588A5158E183F00DBA09D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74588A3158E183F00DBA09D /* ViewController.xib */; };
+		F74588BE158E1A0D00DBA09D /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F74588BD158E1A0D00DBA09D /* landscape.png */; };
+		F74588C5158E208200DBA09D /* PalleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74588C3158E208100DBA09D /* PalleteViewController.m */; };
+		F74588C6158E208200DBA09D /* PalleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74588C4158E208100DBA09D /* PalleteViewController.xib */; };
+		F74588CB158E22C500DBA09D /* CLPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = F74588C8158E227800DBA09D /* CLPalette.m */; };
+		F74588CC158E22C500DBA09D /* CLPaletteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F74588CA158E227900DBA09D /* CLPaletteAPI.m */; };
+		F74588CD158E233600DBA09D /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74588B9158E196700DBA09D /* CanvasView.m */; };
+		F7E1763B158FC49F008A4D17 /* Palette.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1763A158FC49F008A4D17 /* Palette.xib */; };
+		F7E1763E158FC687008A4D17 /* PaletteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E1763D158FC687008A4D17 /* PaletteCell.m */; };
+		F7EA7ACE158E658D0079B70F /* NPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EA7ACD158E658D0079B70F /* NPViewController.xib */; };
+		F7EA7ACF158E65B70079B70F /* NPColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7AC2158E65540079B70F /* NPColorPickerView.m */; };
+		F7EA7AD0158E65B70079B70F /* NPColorQuadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7AC4158E65540079B70F /* NPColorQuadView.m */; };
+		F7EA7AD1158E65B70079B70F /* NPConicGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7AC6158E65540079B70F /* NPConicGradient.m */; };
+		F7EA7AD2158E65B70079B70F /* NPPickerIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7AC8158E65540079B70F /* NPPickerIndicator.m */; };
+		F7EA7AD3158E65B70079B70F /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7ACA158E65540079B70F /* NPViewController.m */; };
+		F7EA7AD4158E65B70079B70F /* RGB-HSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7ACC158E65540079B70F /* RGB-HSL.m */; };
+		F7EA7AD5158E65EC0079B70F /* NPViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = F7EA7ACA158E65540079B70F /* NPViewController.m */; };
+		F7EA7AD9158E665D0079B70F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EA7AD8158E665D0079B70F /* QuartzCore.framework */; };
+		F7EBF6B0159FE13100DC1A18 /* SimpleBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EBF6AF159FE13100DC1A18 /* SimpleBrush.m */; };
+		F7EBF6B315A001D300DC1A18 /* BrushPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6B215A001D300DC1A18 /* BrushPicker.xib */; };
+		F7EBF6B715A0B9D200DC1A18 /* BrushPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EBF6B515A0B9D200DC1A18 /* BrushPickerViewController.m */; };
+		F7EBF6B815A0B9D200DC1A18 /* BrushPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6B615A0B9D200DC1A18 /* BrushPickerViewController.xib */; };
+		F7EBF6BA15A0ECDD00DC1A18 /* ShapeContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6B915A0ECDD00DC1A18 /* ShapeContainer.xib */; };
+		F7EBF6BD15A0EDBE00DC1A18 /* ShapeContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EBF6BC15A0EDBE00DC1A18 /* ShapeContainerView.m */; };
+		F7EBF6C015A126DD00DC1A18 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EBF6BF15A126DD00DC1A18 /* ShapeView.m */; };
+		F7EBF6C415A2600500DC1A18 /* ShapesPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EBF6C215A2600300DC1A18 /* ShapesPickerViewController.m */; };
+		F7EBF6C515A2600500DC1A18 /* ShapesPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6C315A2600400DC1A18 /* ShapesPickerViewController.xib */; };
+		F7EBF6C715A3CF4D00DC1A18 /* canvasbg.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6C615A3CF4C00DC1A18 /* canvasbg.png */; };
+		F7EBF6D215A3D83200DC1A18 /* paint_brush_large.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6D015A3D83100DC1A18 /* paint_brush_large.png */; };
+		F7EBF6D315A3D83200DC1A18 /* paint_brush_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EBF6D115A3D83200DC1A18 /* paint_brush_small.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		472F485315BDFE2900CD3CFD /* drawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawing.h; sourceTree = "<group>"; };
+		47BB4F8515AB2E9F00F09943 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		47BB4F8615AB2E9F00F09943 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		47BB4F8715AB2E9F00F09943 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		F745888A158E183F00DBA09D /* Paletify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paletify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F745888E158E183F00DBA09D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7458890158E183F00DBA09D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7458892158E183F00DBA09D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7458896158E183F00DBA09D /* Paletify-Info.plist */ = {isa = PBXFileReference; path = "Paletify-Info.plist"; sourceTree = "<group>"; };
+		F7458898158E183F00DBA09D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F745889A158E183F00DBA09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F745889C158E183F00DBA09D /* Paletify-Prefix.pch */ = {isa = PBXFileReference; path = "Paletify-Prefix.pch"; sourceTree = "<group>"; };
+		F745889D158E183F00DBA09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F745889E158E183F00DBA09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F74588A0158E183F00DBA09D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F74588A1158E183F00DBA09D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F74588A4158E183F00DBA09D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F74588B8158E196700DBA09D /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		F74588B9158E196700DBA09D /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		F74588BD158E1A0D00DBA09D /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		F74588C2158E208100DBA09D /* PalleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PalleteViewController.h; path = ../PalleteViewController.h; sourceTree = "<group>"; };
+		F74588C3158E208100DBA09D /* PalleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalleteViewController.m; path = ../PalleteViewController.m; sourceTree = "<group>"; };
+		F74588C4158E208100DBA09D /* PalleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PalleteViewController.xib; path = ../PalleteViewController.xib; sourceTree = "<group>"; };
+		F74588C7158E227800DBA09D /* CLPalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPalette.h; sourceTree = "<group>"; };
+		F74588C8158E227800DBA09D /* CLPalette.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPalette.m; sourceTree = "<group>"; };
+		F74588C9158E227800DBA09D /* CLPaletteAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPaletteAPI.h; sourceTree = "<group>"; };
+		F74588CA158E227900DBA09D /* CLPaletteAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPaletteAPI.m; sourceTree = "<group>"; };
+		F7E1763A158FC49F008A4D17 /* Palette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Palette.xib; path = ../Palette.xib; sourceTree = "<group>"; };
+		F7E1763C158FC687008A4D17 /* PaletteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaletteCell.h; path = ../PaletteCell.h; sourceTree = "<group>"; };
+		F7E1763D158FC687008A4D17 /* PaletteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaletteCell.m; path = ../PaletteCell.m; sourceTree = "<group>"; };
+		F7EA7ABD158E65540079B70F /* CGColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CGColor+Additions.h"; path = "ColorPicker/CGColor+Additions.h"; sourceTree = "<group>"; };
+		F7EA7ABE158E65540079B70F /* CGColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CGColor+Additions.m"; path = "ColorPicker/CGColor+Additions.m"; sourceTree = "<group>"; };
+		F7EA7ABF158E65540079B70F /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPAppDelegate.h; path = ColorPicker/NPAppDelegate.h; sourceTree = "<group>"; };
+		F7EA7AC0158E65540079B70F /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPAppDelegate.m; path = ColorPicker/NPAppDelegate.m; sourceTree = "<group>"; };
+		F7EA7AC1158E65540079B70F /* NPColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPColorPickerView.h; path = ColorPicker/NPColorPickerView.h; sourceTree = "<group>"; };
+		F7EA7AC2158E65540079B70F /* NPColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPColorPickerView.m; path = ColorPicker/NPColorPickerView.m; sourceTree = "<group>"; };
+		F7EA7AC3158E65540079B70F /* NPColorQuadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPColorQuadView.h; path = ColorPicker/NPColorQuadView.h; sourceTree = "<group>"; };
+		F7EA7AC4158E65540079B70F /* NPColorQuadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPColorQuadView.m; path = ColorPicker/NPColorQuadView.m; sourceTree = "<group>"; };
+		F7EA7AC5158E65540079B70F /* NPConicGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPConicGradient.h; path = ColorPicker/NPConicGradient.h; sourceTree = "<group>"; };
+		F7EA7AC6158E65540079B70F /* NPConicGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPConicGradient.m; path = ColorPicker/NPConicGradient.m; sourceTree = "<group>"; };
+		F7EA7AC7158E65540079B70F /* NPPickerIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPPickerIndicator.h; path = ColorPicker/NPPickerIndicator.h; sourceTree = "<group>"; };
+		F7EA7AC8158E65540079B70F /* NPPickerIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPPickerIndicator.m; path = ColorPicker/NPPickerIndicator.m; sourceTree = "<group>"; };
+		F7EA7AC9158E65540079B70F /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPViewController.h; path = ColorPicker/NPViewController.h; sourceTree = "<group>"; };
+		F7EA7ACA158E65540079B70F /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPViewController.m; path = ColorPicker/NPViewController.m; sourceTree = "<group>"; };
+		F7EA7ACB158E65540079B70F /* RGB-HSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RGB-HSL.h"; path = "ColorPicker/RGB-HSL.h"; sourceTree = "<group>"; };
+		F7EA7ACC158E65540079B70F /* RGB-HSL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RGB-HSL.m"; path = "ColorPicker/RGB-HSL.m"; sourceTree = "<group>"; };
+		F7EA7ACD158E658D0079B70F /* NPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPViewController.xib; sourceTree = "<group>"; };
+		F7EA7AD6158E66020079B70F /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPViewController.h; path = ColorPicker/NPViewController.h; sourceTree = "<group>"; };
+		F7EA7AD7158E66020079B70F /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NPViewController.m; path = ColorPicker/NPViewController.m; sourceTree = "<group>"; };
+		F7EA7AD8158E665D0079B70F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7EBF6AE159FE13100DC1A18 /* SimpleBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBrush.h; sourceTree = "<group>"; };
+		F7EBF6AF159FE13100DC1A18 /* SimpleBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBrush.m; sourceTree = "<group>"; };
+		F7EBF6B215A001D300DC1A18 /* BrushPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrushPicker.xib; sourceTree = "<group>"; };
+		F7EBF6B415A0B9D200DC1A18 /* BrushPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrushPickerViewController.h; sourceTree = "<group>"; };
+		F7EBF6B515A0B9D200DC1A18 /* BrushPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrushPickerViewController.m; sourceTree = "<group>"; };
+		F7EBF6B615A0B9D200DC1A18 /* BrushPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrushPickerViewController.xib; sourceTree = "<group>"; };
+		F7EBF6B915A0ECDD00DC1A18 /* ShapeContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeContainer.xib; sourceTree = "<group>"; };
+		F7EBF6BB15A0EDBD00DC1A18 /* ShapeContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeContainerView.h; sourceTree = "<group>"; };
+		F7EBF6BC15A0EDBE00DC1A18 /* ShapeContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeContainerView.m; sourceTree = "<group>"; };
+		F7EBF6BE15A126DD00DC1A18 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		F7EBF6BF15A126DD00DC1A18 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		F7EBF6C115A2600100DC1A18 /* ShapesPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesPickerViewController.h; sourceTree = "<group>"; };
+		F7EBF6C215A2600300DC1A18 /* ShapesPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesPickerViewController.m; sourceTree = "<group>"; };
+		F7EBF6C315A2600400DC1A18 /* ShapesPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapesPickerViewController.xib; sourceTree = "<group>"; };
+		F7EBF6C615A3CF4C00DC1A18 /* canvasbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canvasbg.png; sourceTree = "<group>"; };
+		F7EBF6D015A3D83100DC1A18 /* paint_brush_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paint_brush_large.png; sourceTree = "<group>"; };
+		F7EBF6D115A3D83200DC1A18 /* paint_brush_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paint_brush_small.png; sourceTree = "<group>"; };
+		F7EBF6D415A6397B00DC1A18 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7458887158E183F00DBA09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EA7AD9158E665D0079B70F /* QuartzCore.framework in Frameworks */,
+				F745888F158E183F00DBA09D /* UIKit.framework in Frameworks */,
+				F7458891158E183F00DBA09D /* Foundation.framework in Frameworks */,
+				F7458893158E183F00DBA09D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F745887F158E183F00DBA09D = {
+			isa = PBXGroup;
+			children = (
+				F7458894158E183F00DBA09D /* Paletify */,
+				F7EA7ADA158E6B8E0079B70F /* NPColorPicker */,
+				F7EA7ADB158E6BBB0079B70F /* ColourLovers */,
+				F745888D158E183F00DBA09D /* Frameworks */,
+				F745888B158E183F00DBA09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F745888B158E183F00DBA09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F745888A158E183F00DBA09D /* Paletify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F745888D158E183F00DBA09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA7AD8158E665D0079B70F /* QuartzCore.framework */,
+				F745888E158E183F00DBA09D /* UIKit.framework */,
+				F7458890158E183F00DBA09D /* Foundation.framework */,
+				F7458892158E183F00DBA09D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7458894158E183F00DBA09D /* Paletify */ = {
+			isa = PBXGroup;
+			children = (
+				F745889D158E183F00DBA09D /* AppDelegate.h */,
+				F745889E158E183F00DBA09D /* AppDelegate.m */,
+				F7E1763A158FC49F008A4D17 /* Palette.xib */,
+				F7E1763C158FC687008A4D17 /* PaletteCell.h */,
+				F7E1763D158FC687008A4D17 /* PaletteCell.m */,
+				F7EBF6B415A0B9D200DC1A18 /* BrushPickerViewController.h */,
+				F7EBF6B515A0B9D200DC1A18 /* BrushPickerViewController.m */,
+				F7EBF6B615A0B9D200DC1A18 /* BrushPickerViewController.xib */,
+				F74588C2158E208100DBA09D /* PalleteViewController.h */,
+				F74588C3158E208100DBA09D /* PalleteViewController.m */,
+				F74588C4158E208100DBA09D /* PalleteViewController.xib */,
+				47BB4F8515AB2E9F00F09943 /* ShareViewController.h */,
+				47BB4F8615AB2E9F00F09943 /* ShareViewController.m */,
+				47BB4F8715AB2E9F00F09943 /* ShareViewController.xib */,
+				F74588A1158E183F00DBA09D /* ViewController.m */,
+				F74588A0158E183F00DBA09D /* ViewController.h */,
+				F74588A3158E183F00DBA09D /* ViewController.xib */,
+				F7EBF6C115A2600100DC1A18 /* ShapesPickerViewController.h */,
+				F7EBF6C215A2600300DC1A18 /* ShapesPickerViewController.m */,
+				F7EBF6C315A2600400DC1A18 /* ShapesPickerViewController.xib */,
+				F74588B8158E196700DBA09D /* CanvasView.h */,
+				F74588B9158E196700DBA09D /* CanvasView.m */,
+				F7EBF6AE159FE13100DC1A18 /* SimpleBrush.h */,
+				F7EBF6AF159FE13100DC1A18 /* SimpleBrush.m */,
+				F7EBF6D415A6397B00DC1A18 /* constants.h */,
+				472F485315BDFE2900CD3CFD /* drawing.h */,
+				F7EBF6BB15A0EDBD00DC1A18 /* ShapeContainerView.h */,
+				F7EBF6BC15A0EDBE00DC1A18 /* ShapeContainerView.m */,
+				F7EBF6BE15A126DD00DC1A18 /* ShapeView.h */,
+				F7EBF6BF15A126DD00DC1A18 /* ShapeView.m */,
+				F7458895158E183F00DBA09D /* Supporting Files */,
+				F7EBF6B915A0ECDD00DC1A18 /* ShapeContainer.xib */,
+			);
+			name = Paletify;
+			path = ColorSketch;
+			sourceTree = "<group>";
+		};
+		F7458895158E183F00DBA09D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EBF6D015A3D83100DC1A18 /* paint_brush_large.png */,
+				F7EBF6D115A3D83200DC1A18 /* paint_brush_small.png */,
+				F7EA7ACD158E658D0079B70F /* NPViewController.xib */,
+				F7EBF6B215A001D300DC1A18 /* BrushPicker.xib */,
+				F7458896158E183F00DBA09D /* Paletify-Info.plist */,
+				F7EBF6C615A3CF4C00DC1A18 /* canvasbg.png */,
+				F74588BD158E1A0D00DBA09D /* landscape.png */,
+				F7458897158E183F00DBA09D /* InfoPlist.strings */,
+				F745889A158E183F00DBA09D /* main.m */,
+				F745889C158E183F00DBA09D /* Paletify-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7EA7ADA158E6B8E0079B70F /* NPColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA7AD6158E66020079B70F /* NPViewController.h */,
+				F7EA7AD7158E66020079B70F /* NPViewController.m */,
+				F7EA7ABD158E65540079B70F /* CGColor+Additions.h */,
+				F7EA7ABE158E65540079B70F /* CGColor+Additions.m */,
+				F7EA7ABF158E65540079B70F /* NPAppDelegate.h */,
+				F7EA7AC0158E65540079B70F /* NPAppDelegate.m */,
+				F7EA7AC1158E65540079B70F /* NPColorPickerView.h */,
+				F7EA7AC2158E65540079B70F /* NPColorPickerView.m */,
+				F7EA7AC3158E65540079B70F /* NPColorQuadView.h */,
+				F7EA7AC4158E65540079B70F /* NPColorQuadView.m */,
+				F7EA7AC5158E65540079B70F /* NPConicGradient.h */,
+				F7EA7AC6158E65540079B70F /* NPConicGradient.m */,
+				F7EA7AC7158E65540079B70F /* NPPickerIndicator.h */,
+				F7EA7AC8158E65540079B70F /* NPPickerIndicator.m */,
+				F7EA7AC9158E65540079B70F /* NPViewController.h */,
+				F7EA7ACA158E65540079B70F /* NPViewController.m */,
+				F7EA7ACB158E65540079B70F /* RGB-HSL.h */,
+				F7EA7ACC158E65540079B70F /* RGB-HSL.m */,
+			);
+			name = NPColorPicker;
+			sourceTree = "<group>";
+		};
+		F7EA7ADB158E6BBB0079B70F /* ColourLovers */ = {
+			isa = PBXGroup;
+			children = (
+				F74588C7158E227800DBA09D /* CLPalette.h */,
+				F74588C8158E227800DBA09D /* CLPalette.m */,
+				F74588C9158E227800DBA09D /* CLPaletteAPI.h */,
+				F74588CA158E227900DBA09D /* CLPaletteAPI.m */,
+			);
+			name = ColourLovers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7458889158E183F00DBA09D /* Paletify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74588A8158E183F00DBA09D /* Build configuration list for PBXNativeTarget "Paletify" */;
+			buildPhases = (
+				F7458886158E183F00DBA09D /* Sources */,
+				F7458887158E183F00DBA09D /* Frameworks */,
+				F7458888158E183F00DBA09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paletify;
+			productName = ColorSketch;
+			productReference = F745888A158E183F00DBA09D /* Paletify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7458881158E183F00DBA09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F7458884158E183F00DBA09D /* Build configuration list for PBXProject "Paletify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F745887F158E183F00DBA09D;
+			productRefGroup = F745888B158E183F00DBA09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7458889158E183F00DBA09D /* Paletify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7458888158E183F00DBA09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74588BE158E1A0D00DBA09D /* landscape.png in Resources */,
+				F7458899158E183F00DBA09D /* InfoPlist.strings in Resources */,
+				F7EA7AD5158E65EC0079B70F /* NPViewController.m in Resources */,
+				F74588A5158E183F00DBA09D /* ViewController.xib in Resources */,
+				F74588C6158E208200DBA09D /* PalleteViewController.xib in Resources */,
+				F7EA7ACE158E658D0079B70F /* NPViewController.xib in Resources */,
+				F7E1763B158FC49F008A4D17 /* Palette.xib in Resources */,
+				F7EBF6B315A001D300DC1A18 /* BrushPicker.xib in Resources */,
+				F7EBF6B815A0B9D200DC1A18 /* BrushPickerViewController.xib in Resources */,
+				F7EBF6BA15A0ECDD00DC1A18 /* ShapeContainer.xib in Resources */,
+				F7EBF6C515A2600500DC1A18 /* ShapesPickerViewController.xib in Resources */,
+				F7EBF6C715A3CF4D00DC1A18 /* canvasbg.png in Resources */,
+				F7EBF6D215A3D83200DC1A18 /* paint_brush_large.png in Resources */,
+				F7EBF6D315A3D83200DC1A18 /* paint_brush_small.png in Resources */,
+				47BB4F8915AB2E9F00F09943 /* ShareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7458886158E183F00DBA09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EA7ACF158E65B70079B70F /* NPColorPickerView.m in Sources */,
+				F7EA7AD0158E65B70079B70F /* NPColorQuadView.m in Sources */,
+				F7EA7AD1158E65B70079B70F /* NPConicGradient.m in Sources */,
+				F7EA7AD2158E65B70079B70F /* NPPickerIndicator.m in Sources */,
+				F7EA7AD4158E65B70079B70F /* RGB-HSL.m in Sources */,
+				F74588CD158E233600DBA09D /* CanvasView.m in Sources */,
+				F74588CB158E22C500DBA09D /* CLPalette.m in Sources */,
+				F74588CC158E22C500DBA09D /* CLPaletteAPI.m in Sources */,
+				F745889B158E183F00DBA09D /* main.m in Sources */,
+				F745889F158E183F00DBA09D /* AppDelegate.m in Sources */,
+				F74588A2158E183F00DBA09D /* ViewController.m in Sources */,
+				F7EA7AD3158E65B70079B70F /* NPViewController.m in Sources */,
+				F74588C5158E208200DBA09D /* PalleteViewController.m in Sources */,
+				F7E1763E158FC687008A4D17 /* PaletteCell.m in Sources */,
+				F7EBF6B0159FE13100DC1A18 /* SimpleBrush.m in Sources */,
+				F7EBF6B715A0B9D200DC1A18 /* BrushPickerViewController.m in Sources */,
+				F7EBF6BD15A0EDBE00DC1A18 /* ShapeContainerView.m in Sources */,
+				F7EBF6C015A126DD00DC1A18 /* ShapeView.m in Sources */,
+				F7EBF6C415A2600500DC1A18 /* ShapesPickerViewController.m in Sources */,
+				47BB4F8815AB2E9F00F09943 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7458897158E183F00DBA09D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7458898158E183F00DBA09D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F74588A3158E183F00DBA09D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74588A4158E183F00DBA09D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74588A6158E183F00DBA09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F74588A7158E183F00DBA09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74588A9158E183F00DBA09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSketch/Paletify-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ColorPicker";
+				INFOPLIST_FILE = "ColorSketch/Paletify-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Paletify;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F74588AA158E183F00DBA09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSketch/Paletify-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ColorPicker";
+				INFOPLIST_FILE = "ColorSketch/Paletify-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Paletify;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7458884158E183F00DBA09D /* Build configuration list for PBXProject "Paletify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74588A6158E183F00DBA09D /* Debug */,
+				F74588A7158E183F00DBA09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74588A8158E183F00DBA09D /* Build configuration list for PBXNativeTarget "Paletify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74588A9158E183F00DBA09D /* Debug */,
+				F74588AA158E183F00DBA09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7458881158E183F00DBA09D /* Project object */;
+}

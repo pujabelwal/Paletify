@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7513DD9158E5C18002A136C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05509FA150A07B2006137B6 /* Foundation.framework */; };
+		F7513DDF158E5C19002A136C /* NPColorPickerLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F7513DDE158E5C19002A136C /* NPColorPickerLib.m */; };
+		F7513DE3158E5C41002A136C /* NPConicGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F612F150FA2FA00EBD6BD /* NPConicGradient.m */; };
+		F7513DE4158E5C41002A136C /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0550A0B150A07B2006137B6 /* NPViewController.m */; };
+		F7513DE5158E5C41002A136C /* NPColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0550A21150A07F6006137B6 /* NPColorPickerView.m */; };
+		F7513DE6158E5C41002A136C /* RGB-HSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F6145150FB46800EBD6BD /* RGB-HSL.m */; };
+		F7513DE7158E5C41002A136C /* NPPickerIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F614C150FEBEA00EBD6BD /* NPPickerIndicator.m */; };
+		F7513DE8158E5C41002A136C /* NPColorQuadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B93A8E152A5CFF0064CE15 /* NPColorQuadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F03F612E150FA2FA00EBD6BD /* NPConicGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPConicGradient.h; sourceTree = "<group>"; };
+		F03F612F150FA2FA00EBD6BD /* NPConicGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPConicGradient.m; sourceTree = "<group>"; };
+		F03F6144150FB46800EBD6BD /* RGB-HSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RGB-HSL.h"; sourceTree = "<group>"; };
+		F03F6145150FB46800EBD6BD /* RGB-HSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RGB-HSL.m"; sourceTree = "<group>"; };
+		F03F6148150FE92A00EBD6BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F03F614B150FEBEA00EBD6BD /* NPPickerIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPickerIndicator.h; sourceTree = "<group>"; };
+		F03F614C150FEBEA00EBD6BD /* NPPickerIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPickerIndicator.m; sourceTree = "<group>"; };
+		F05509F8150A07B2006137B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F05509FA150A07B2006137B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F05509FC150A07B2006137B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0550A00150A07B2006137B6 /* NPColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPColorPicker-Info.plist"; sourceTree = "<group>"; };
+		F0550A02150A07B2006137B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0550A04150A07B2006137B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0550A06150A07B2006137B6 /* NPColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		F0550A07150A07B2006137B6 /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAppDelegate.h; sourceTree = "<group>"; };
+		F0550A08150A07B2006137B6 /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAppDelegate.m; sourceTree = "<group>"; };
+		F0550A0A150A07B2006137B6 /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPViewController.h; sourceTree = "<group>"; };
+		F0550A0B150A07B2006137B6 /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
+		F0550A0E150A07B2006137B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NPViewController.xib; sourceTree = "<group>"; };
+		F0550A20150A07F6006137B6 /* NPColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPColorPickerView.h; sourceTree = "<group>"; };
+		F0550A21150A07F6006137B6 /* NPColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPColorPickerView.m; sourceTree = "<group>"; };
+		F0B93A8D152A5CFF0064CE15 /* NPColorQuadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPColorQuadView.h; sourceTree = "<group>"; };
+		F0B93A8E152A5CFF0064CE15 /* NPColorQuadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPColorQuadView.m; sourceTree = "<group>"; };
+		F7513DD8158E5C18002A136C /* libNPColorPickerLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNPColorPickerLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7513DDC158E5C19002A136C /* NPColorPickerLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPColorPickerLib-Prefix.pch"; sourceTree = "<group>"; };
+		F7513DDD158E5C19002A136C /* NPColorPickerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPColorPickerLib.h; sourceTree = "<group>"; };
+		F7513DDE158E5C19002A136C /* NPColorPickerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPColorPickerLib.m; sourceTree = "<group>"; };
+		F7B7A88E158E57B100FE1F1D /* NPColorPickerLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPColorPickerLib-Prefix.pch"; sourceTree = "<group>"; };
+		F7B7A88F158E57B100FE1F1D /* NPColorPickerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPColorPickerLib.h; sourceTree = "<group>"; };
+		F7B7A890158E57B100FE1F1D /* NPColorPickerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPColorPickerLib.m; sourceTree = "<group>"; };
+		F7B7A8A1158E58D100FE1F1D /* CGColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGColor+Additions.h"; sourceTree = "<group>"; };
+		F7B7A8A2158E58D100FE1F1D /* CGColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGColor+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7513DD5158E5C18002A136C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7513DD9158E5C18002A136C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05509E9150A07B2006137B6 = {
+			isa = PBXGroup;
+			children = (
+				F03F6148150FE92A00EBD6BD /* QuartzCore.framework */,
+				F05509FE150A07B2006137B6 /* ColorPicker */,
+				F7B7A88C158E57B100FE1F1D /* NPColorPickerLib */,
+				F7513DDA158E5C18002A136C /* NPColorPickerLib */,
+				F05509F7150A07B2006137B6 /* Frameworks */,
+				F05509F5150A07B2006137B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05509F5150A07B2006137B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7513DD8158E5C18002A136C /* libNPColorPickerLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05509F7150A07B2006137B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05509F8150A07B2006137B6 /* UIKit.framework */,
+				F05509FA150A07B2006137B6 /* Foundation.framework */,
+				F05509FC150A07B2006137B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05509FE150A07B2006137B6 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F03F612E150FA2FA00EBD6BD /* NPConicGradient.h */,
+				F7B7A8A1158E58D100FE1F1D /* CGColor+Additions.h */,
+				F7B7A8A2158E58D100FE1F1D /* CGColor+Additions.m */,
+				F03F612F150FA2FA00EBD6BD /* NPConicGradient.m */,
+				F0550A07150A07B2006137B6 /* NPAppDelegate.h */,
+				F0550A08150A07B2006137B6 /* NPAppDelegate.m */,
+				F0550A0A150A07B2006137B6 /* NPViewController.h */,
+				F0550A0B150A07B2006137B6 /* NPViewController.m */,
+				F0550A0D150A07B2006137B6 /* NPViewController.xib */,
+				F05509FF150A07B2006137B6 /* Supporting Files */,
+				F0550A20150A07F6006137B6 /* NPColorPickerView.h */,
+				F0550A21150A07F6006137B6 /* NPColorPickerView.m */,
+				F03F6144150FB46800EBD6BD /* RGB-HSL.h */,
+				F03F6145150FB46800EBD6BD /* RGB-HSL.m */,
+				F03F614B150FEBEA00EBD6BD /* NPPickerIndicator.h */,
+				F03F614C150FEBEA00EBD6BD /* NPPickerIndicator.m */,
+				F0B93A8D152A5CFF0064CE15 /* NPColorQuadView.h */,
+				F0B93A8E152A5CFF0064CE15 /* NPColorQuadView.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		F05509FF150A07B2006137B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0550A00150A07B2006137B6 /* NPColorPicker-Info.plist */,
+				F0550A01150A07B2006137B6 /* InfoPlist.strings */,
+				F0550A04150A07B2006137B6 /* main.m */,
+				F0550A06150A07B2006137B6 /* NPColorPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7513DDA158E5C18002A136C /* NPColorPickerLib */ = {
+			isa = PBXGroup;
+			children = (
+				F7513DDD158E5C19002A136C /* NPColorPickerLib.h */,
+				F7513DDE158E5C19002A136C /* NPColorPickerLib.m */,
+				F7513DDB158E5C19002A136C /* Supporting Files */,
+			);
+			path = NPColorPickerLib;
+			sourceTree = "<group>";
+		};
+		F7513DDB158E5C19002A136C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7513DDC158E5C19002A136C /* NPColorPickerLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7B7A88C158E57B100FE1F1D /* NPColorPickerLib */ = {
+			isa = PBXGroup;
+			children = (
+				F7B7A88F158E57B100FE1F1D /* NPColorPickerLib.h */,
+				F7B7A890158E57B100FE1F1D /* NPColorPickerLib.m */,
+				F7B7A88D158E57B100FE1F1D /* Supporting Files */,
+			);
+			path = NPColorPickerLib;
+			sourceTree = "<group>";
+		};
+		F7B7A88D158E57B100FE1F1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7B7A88E158E57B100FE1F1D /* NPColorPickerLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7513DD6158E5C18002A136C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7513DD7158E5C18002A136C /* NPColorPickerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7513DE0158E5C19002A136C /* Build configuration list for PBXNativeTarget "NPColorPickerLib" */;
+			buildPhases = (
+				F7513DD4158E5C18002A136C /* Sources */,
+				F7513DD5158E5C18002A136C /* Frameworks */,
+				F7513DD6158E5C18002A136C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPColorPickerLib;
+			productName = NPColorPickerLib;
+			productReference = F7513DD8158E5C18002A136C /* libNPColorPickerLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05509EB150A07B2006137B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F05509EE150A07B2006137B6 /* Build configuration list for PBXProject "NPColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F05509E9150A07B2006137B6;
+			productRefGroup = F05509F5150A07B2006137B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7513DD7158E5C18002A136C /* NPColorPickerLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7513DD4158E5C18002A136C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7513DE3158E5C41002A136C /* NPConicGradient.m in Sources */,
+				F7513DE4158E5C41002A136C /* NPViewController.m in Sources */,
+				F7513DE5158E5C41002A136C /* NPColorPickerView.m in Sources */,
+				F7513DE6158E5C41002A136C /* RGB-HSL.m in Sources */,
+				F7513DE7158E5C41002A136C /* NPPickerIndicator.m in Sources */,
+				F7513DE8158E5C41002A136C /* NPColorQuadView.m in Sources */,
+				F7513DDF158E5C19002A136C /* NPColorPickerLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0550A01150A07B2006137B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0550A02150A07B2006137B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0550A0D150A07B2006137B6 /* NPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0550A0E150A07B2006137B6 /* en */,
+			);
+			name = NPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0550A10150A07B2006137B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0550A11150A07B2006137B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7513DE1158E5C19002A136C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/NPColorPickerLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPColorPickerLib/NPColorPickerLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7513DE2158E5C19002A136C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/NPColorPickerLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPColorPickerLib/NPColorPickerLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05509EE150A07B2006137B6 /* Build configuration list for PBXProject "NPColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0550A10150A07B2006137B6 /* Debug */,
+				F0550A11150A07B2006137B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7513DE0158E5C19002A136C /* Build configuration list for PBXNativeTarget "NPColorPickerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7513DE1158E5C19002A136C /* Debug */,
+				F7513DE2158E5C19002A136C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05509EB150A07B2006137B6 /* Project object */;
+}

@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'NPColorPickerLib' target in the 'NPColorPickerLib' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h> 
+    #import <Foundation/Foundation.h>
+#endif
